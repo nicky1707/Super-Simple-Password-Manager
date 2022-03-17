@@ -8,6 +8,7 @@ Simple CLI Password Manager written in python.
 
 # Execution
 - Copy the files to a directory.
+- Open terminal in that directory.
 - Run main.py in Terminal.
 - Initially will ask for setup a master password. (minimal security)
 - The Main menu will run on a loop to choose. 
