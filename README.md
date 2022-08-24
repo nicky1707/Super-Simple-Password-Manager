@@ -1,19 +1,26 @@
 # Super-Simple-Password-Manager
 Simple CLI Password Manager written in python.
 
-# Requirements 
-- Python3.
-- Python Clipboard module.( pip install clipboard or pip3 install clipboard )
-- Bash Terminal / Power shell.
+## Compile this into a exe with pyinstaller
+- 1. Create a virtural environment 
+```python
+pip install virtualenv
 
-# Execution
-- Copy the files to a directory.
-- Open terminal in that directory.
-- Run main.py in Terminal.
-- Initially will ask for setup a master password. (minimal security)
-- The Main menu will run on a loop to choose. 
-  - 1.Create a password
-  - 2.show saved passwords
-  - 3.delete
-  - 4.quit
-- '4' in the query will exit the program.
+virtualenv env
+
+env/scripts/activate
+```
+
+- 2. Install pyinstaller
+```python
+pip install pyinstaller
+```
+
+- (OPTIONAL) Add a icon 
+- copy place your .ico format file in the directory
+
+- 3. Run the command the the directory while virtual env activated
+```python
+pyinstaller -F -i icon.ico main.py
+```
+- this will compile the python script into binary file that is exe file.
