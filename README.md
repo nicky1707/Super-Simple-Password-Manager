@@ -2,7 +2,7 @@
 Simple CLI Password Manager written in python.
 
 ## Compile this into a exe with pyinstaller
-- 1. Create a virtural environment 
+- 1.Create a virtural environment 
 ```python
 pip install virtualenv
 
